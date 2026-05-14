@@ -14,6 +14,6 @@ public class HelloController {
 
     @GetMapping("/msg")
     public String getMessage(){
-        return "Placeholder";
+        return "Hello.. This is awesome";
     }
 }
